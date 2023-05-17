@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Plant Shop</title>
+</head>
+<body class="page">
+    <header class="nav">
+        <img src="./image/Group 5Logo.svg" alt="Логотип." class="nav__logo">
+        <div class="nav__right">
+            <img src="./image/search 1Search.svg" alt="Поиск." class="nav__search">
+            <img src="./image/shopping-cart 1Shop.svg" alt="Корзина" class="nav__shop">
+            <button class="nav__sign button">Sign Up</button>
+            <button class="nav__sign nav__sign_active button">Sign In</button>
+        </div>
+    </header >
+
+    <section class="main">
+        <img src="./image/Mask Group.png" alt="Зелёный цветок в горшке." class="main__img">
+        <div class="main__content">
+            <h1 class="main__title">Kembang Flower&nbsp;Mantap</h1>
+            <p class="main__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div>
+                <button class="main__button main__button_left button">&#8592; Previous<br><span class="main__button_name_left">Kaktus Plant</span></button>
+                <button class="main__button main__button_right button">Next &#8594;<br><span class="main__button_name_right">Rahasia Plant</span></button>
+            </div>
+        </div>
+    </section> 
+
+    <section class="function">
+        <article class="function__item">
+            <img src="./image/fast 1Car.svg" alt="Значок грузовой машины." class="function__icon">
+            <h3 class="function__title">Fast Delivery</h3>
+            <p class="function__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+        </article>
+        <article class="function__item">
+            <img src="./image/headphones 1.svg" alt="Значок наушники." class="function__icon">
+            <h3 class="function__title">Great Customer Service</h3>
+            <p class="function__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+        </article>
+        <article class="function__item">
+            <img src="./image/plant 1Plant.svg" alt="Значок растения." class="function__icon">
+            <h3 class="function__title">Original Plants</h3>
+            <p class="function__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+        </article>
+        <article class="function__item">
+            <img src="./image/dollar-symbol 1Coin.svg" alt="Значок монетки." class="function__icon">
+            <h3 class="function__title">Affordable Price</h3>
+            <p class="function__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+        </article>
+    </section>
+
+    <section class="plants">
+        <h2 class="plants__title">Featured Plants</h2>
+        <div class="plants__galerrey">
+            <article class="plants__item">
+                <img src="./image/Mask Group1.png" alt="Кактус." class="plants__img">
+                <h3 class="plants__name">Kaktus Plants</h3>
+                <p class="plants__cost">75.00</p>
+            </article>
+            <article class="plants__item">
+                <img src="./image/Mask Group2.png" alt="Растение." class="plants__img">
+                <h3 class="plants__name">Landak Plants</h3>
+                <p class="plants__cost">105.00</p>
+            </article>
+            <article class="plants__item">
+                <img src="./image/Mask Group3.png" alt="Кактус." class="plants__img">
+                <h3 class="plants__name">Kaktus Plants</h3>
+                <p class="plants__cost">85.00</p>
+            </article>
+            <article class="plants__item">
+                <img src="./image/Mask Group4.png" alt="Растение." class="plants__img">
+                <h3 class="plants__name">Kecubung Plants</h3>
+                <p class="plants__cost">95.00</p>
+            </article>
+            <article class="plants__item">
+                <img src="./image/Mask Group5.png" alt="Растение." class="plants__img">
+                <h3 class="plants__name">Rahasia Plants</h3>
+                <p class="plants__cost">85.00</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info__text">
+            <h2 class="info__title">Buy more plants, it helps you to be relaxed </h2>
+            <p class="info__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.</p>
+        </div>
+        <img src="./image/Mask Groupbottom.png" alt="Столик с маленьким цветком в горшке." class="info__bottom-img">
+        <img src="./image/Mask Groupright.png" alt="Настенное панно из горшков цветов." class="info__right-img">
+    </section>
+
+    <section class="shop">
+        <h2 class="shop__title">Get your favourites plant on our shop now</h2>
+        <button class="shop__button button">Visit Shop</button>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__column">
+            <h3 class="footer__title">plantku</h3>
+            <p class="footer__subtitle">Plantku House</p>
+            <p class="footer__adres">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</p>
+        </div>
+        <div class="footer__column">
+            <h3 class="footer__subtitle">Perusahaan</h3>
+            <p class="footer__text">Tentang Kami</p>
+            <p class="footer__text">Hubungi Kami</p>
+        </div>
+        <div class="footer__column">
+            <h3 class="footer__subtitle">Produk</h3>
+            <p class="footer__text">Tanaman</p>
+            <p class="footer__text">Tanaman Lain</p>
+        </div>
+        <div class="footer__column">
+            <h3 class="footer__subtitle">Berlangganan Email Kami</h3>
+            <input type="email" class="footer__email" placeholder="hello@example.com">
+            <button class="footer__button button">Submit</button>
+            <p class="footer__author">&#169;Anastasiy Volokitina</p>
+        </div>
+    </footer>
+</body>
+</html>
